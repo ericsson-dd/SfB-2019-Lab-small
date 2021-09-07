@@ -1,1 +1,1 @@
-# SfB-2019-Lab
+# SfB-2019-Lab-small
