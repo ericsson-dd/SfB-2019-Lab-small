@@ -17,8 +17,3 @@ provider "azurerm" {
     client_secret = var.client_secret
     tenant_id = var.tenant_id
 }
-
-# Call network module
-module "network" {
-  source = "./network"
-}
