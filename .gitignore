@@ -31,4 +31,4 @@ override.tf.json
 
 # Ignore tf lock files
 *.lock
-*.lock.hcl
+*.lock.*
