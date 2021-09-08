@@ -26,6 +26,6 @@ resource "azurerm_virtual_network" "ersc-vnet-01" {
   }
 
   tags = {
-    environment = "demo"
+    environment = "ersc-demo"
   }
 }
