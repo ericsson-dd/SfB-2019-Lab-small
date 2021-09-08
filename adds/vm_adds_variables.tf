@@ -1,9 +1,9 @@
 variable "admin_username" {
-    description = "Azure Subscription ID"
+    description = "Local Admin User"
     type = string
 }
 
 variable "admin_password" {
-    description = "Azure Subscription ID"
+    description = "Local Admin Password"
     type = string
 }
