@@ -1,6 +1,6 @@
 resource "azurerm_windows_virtual_machine" "example" {
   name                = "example-machine"
-  resource_group_name = azurerm_resource_group.example.name
+  resource_group_name = azurerm_resource_group.sfb2019-lab-small-rg.name
   location            = azurerm_resource_group.example.location
   size                = "Standard_F2"
   admin_username      = var.admin_username
